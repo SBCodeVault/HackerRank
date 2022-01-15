@@ -1,0 +1,6 @@
+Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA.
+
+The CITY table is described as follows:CITY.jpg
+![alt text](https://www.hackerrank.com/challenges/revising-the-select-query-2/problem/to/CITY.jpg)CITY.jpg
+
+[![name](CITY.jpg)](https://www.hackerrank.com/challenges/revising-the-select-query-2/problem)
