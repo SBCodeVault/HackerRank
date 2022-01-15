@@ -1,0 +1,23 @@
+Question:
+P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+Write a query to print the pattern P(20).
+
+
+Solution:
+DECLARE @R INT 
+DECLARE @CNT INT
+SET @R = 20
+SET @CNT = 1
+
+WHILE @CNT < @R+1
+BEGIN
+  PRINT REPLICATE('* ',@CNT)
+  SET @CNT = @CNT + 1
+END
+;
